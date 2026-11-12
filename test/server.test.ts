@@ -17,7 +17,7 @@ process.env.DESK_DATA_FILE = join(
 );
 // Pin the PayPal credentials to empty, do not delete them. The
 // server module calls loadEnv() at import time, and loadEnv fills
-// any UNDEFINED variable from the operator's local build/.env — so
+// any UNDEFINED variable from the operator's local .env — so
 // deleting the variables here silently resurrects the real sandbox
 // credentials from .env, and the server under test boots on the real
 // PayPal rail instead of the stub (the failure this fixes: no stub

@@ -1,6 +1,6 @@
 // Minimal environment loading. Values come from the process
 // environment, optionally supplemented by a local .env file next to
-// the project root (build/.env) for the operator's own machine. The
+// the project root (.env) for the operator's own machine. The
 // .env file is never committed (see .gitignore) and its values are
 // never printed, logged, or returned by any route in this project.
 

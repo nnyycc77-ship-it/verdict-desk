@@ -69,8 +69,8 @@ test("prize-stage identity wording is a caution, not a fail", () => {
 });
 
 test("fill check behaviour on a past deadline in prose is pinned honestly", () => {
-  // Known property of the vendored battery, recorded in
-  // BUILD-REPORT.md: the expired-deadline branch parses the whole
+  // Known property of the vendored battery: the expired-deadline
+  // branch parses the whole
   // evidence snippet with Date.parse, and prose snippets do not
   // parse, so a past deadline written in prose reads as "unknown"
   // rather than "fail". The check fails toward unknown, never toward

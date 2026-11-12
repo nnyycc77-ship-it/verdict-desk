@@ -3,7 +3,7 @@
 //   npm run round-trip
 //
 // Prereqs: PAYPAL_CLIENT_ID and PAYPAL_CLIENT_SECRET for a sandbox
-// app in the environment (or in build/.env), PAYPAL_ENV=sandbox.
+// app in the environment (or in .env), PAYPAL_ENV=sandbox.
 // The script never prints the credentials.
 //
 // What it does:
@@ -33,7 +33,7 @@ loadEnv();
 const cfg = paypalConfig();
 if (!cfg.clientId || !cfg.clientSecret) {
   console.error(
-    "PAYPAL_CLIENT_ID and PAYPAL_CLIENT_SECRET are not set. The live round trip needs the sandbox app credentials in the server environment (or in build/.env). See BUILD-REPORT.md.",
+    "PAYPAL_CLIENT_ID and PAYPAL_CLIENT_SECRET are not set. The live round trip needs the sandbox app credentials in the server environment (or in .env).",
   );
   process.exit(2);
 }

@@ -37,9 +37,9 @@ The script runs a free evaluation, creates a real sandbox order, prints the appr
 
 ## Testing access for judges
 
-- Hosted demo: `<HOSTED DEMO URL — filled in at submission>`
+- Hosted demo: none. There is no hosted demo; run it locally with the instructions above.
 - The demo runs on the PayPal sandbox; no real money moves.
-- Sandbox test buyer (a fake PayPal sandbox account with a neutral generated name, safe to publish): **John Doe**, email `sb-hcqwx53807053@personal.example.com`, password `<SANDBOX BUYER PASSWORD — one value filled in at submission from the PayPal Developer dashboard: Sandbox → Accounts → the personal account>`. Use it at the PayPal approval step to buy the full evaluation or a recheck.
+- Sandbox test buyer (a fake PayPal sandbox account with a neutral generated name, safe to publish): **John Doe**, email `sb-hcqwx53807053@personal.example.com`, password: the password is in the testing instructions on the Devpost entry. Use it at the PayPal approval step to buy the full evaluation or a recheck; any PayPal sandbox personal account works at the approval step.
 - Or run it locally from this repository with the instructions above; a sandbox app of your own is only needed for the live PayPal flow, and stub mode covers everything else.
 
 ## Tools statement
