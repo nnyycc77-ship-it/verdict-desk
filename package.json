@@ -1,0 +1,15 @@
+{
+  "description": "Verdict Desk with PayPal checkout: quoted-evidence verdicts on work postings, with the full evaluation and the recheck sold through the PayPal Orders API (sandbox).",
+  "engines": {
+    "node": ">=22.6"
+  },
+  "name": "verdict-desk-paypal",
+  "private": true,
+  "scripts": {
+    "round-trip": "node scripts/round-trip.ts",
+    "start": "node src/server.ts",
+    "test": "node --test test/*.test.ts"
+  },
+  "type": "module",
+  "version": "1.0.0"
+}
